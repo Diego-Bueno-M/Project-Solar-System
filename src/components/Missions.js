@@ -17,7 +17,8 @@ class Missions extends React.Component {
             key={ index }
           />))}
         </div>
-      </div>);
+      </div>
+    );
   }
 }
 

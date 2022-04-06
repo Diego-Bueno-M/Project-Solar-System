@@ -8,7 +8,8 @@ class Title extends React.Component {
     return (
       <h2>
         {headline}
-      </h2>);
+      </h2>
+    );
   }
 }
 

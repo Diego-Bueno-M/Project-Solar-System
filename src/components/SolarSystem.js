@@ -15,7 +15,8 @@ class SolarSystem extends React.Component {
             key={ index }
           />))}
         </div>
-      </div>);
+      </div>
+    );
   }
 }
 
