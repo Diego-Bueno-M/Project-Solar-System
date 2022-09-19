@@ -1,5 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const PlanetImg = styled.img`
+  width: 120px;
+`;
 
 class PlanetCard extends React.Component {
   render() {
@@ -7,8 +12,8 @@ class PlanetCard extends React.Component {
 
     return (
       <div data-testid="planet-card">
+        <PlanetImg src={ planetImage } alt={ `Planeta ${planetName}` } />
         <p data-testid="planet-name">{planetName}</p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
       </div>
     );
   }
