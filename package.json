@@ -1,4 +1,5 @@
 {
+  "homepage": "https://diego-bueno-m.github.io/project-solar-system",
   "name": "solar-system",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
   },
