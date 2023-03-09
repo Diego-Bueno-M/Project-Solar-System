@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.95751e77.css","mappings":"AAAA,EAEE,4FAAgD,CADhD,UAEF","sources":["index.css"],"sourcesContent":["* {\n  color: white;\n  background-image: url('./images/background.png');\n}\n"],"names":[],"sourceRoot":""}
