@@ -3,8 +3,6 @@
 ## Intro:
 Esse foi o meu primeiro projeto desenvolvido utilizando React. Por isso tenho bastante orgulho dele!<br>
 O projeto consiste em mostrar um modelo do sistema solar e cartas com o ano, país responsável e destino de algumas missões espaciais.<br>
-Para vizualizá-lo basta clicar no link abaixo:<br>
-link
 
 
 ## Habilidades desenvolvidas:
